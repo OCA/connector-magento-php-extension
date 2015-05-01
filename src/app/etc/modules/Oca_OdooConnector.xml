@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Oca_OdooConnector>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Api/>
+                <Mage_Catalog/>
+            </depends>
+        </Oca_OdooConnector>
+    </modules>
+</config>

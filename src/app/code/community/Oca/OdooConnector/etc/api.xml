@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <odoo_websites translate="title" module="core">
+                <title>Website Management</title>
+                <model>oca_odooconnector/api_core_website</model>
+                <acl>core/store</acl>
+                <methods>
+                    <search translate="title" module="core">
+                        <title>Returns website ids matching given filter</title>
+                        <method>search</method>
+                    </search>
+                </methods>
+            </odoo_websites>
+        </resources>
+        <!-- backward compatibility layer -->
+        <resources_alias>
+            <ol_websites>odoo_websites</ol_websites>
+        </resources_alias>
+    </api>
+</config>
